@@ -12,6 +12,10 @@ Usage
 clone this repository and after that you will build:
 
     docker build -t your_dockerhub_username/<nameofyourapp> .
+    
+Run your container:
+
+    docker run --name <nameofyourapp> -p 80:8080 -d your_dockerhub_username/<nameofyourapp>
 
 
 
